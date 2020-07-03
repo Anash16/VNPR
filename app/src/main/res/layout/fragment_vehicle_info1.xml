@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:background="#0277bd"
+    tools:context=".Fragment.VehicleInfo">
+
+    <!-- TODO: Update blank fragment layout -->
+    /*
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/vehicleinfo"
+        android:backgroundTint="#f1f8e9"
+        android:elevation="20dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:labelFor="@id/etVehicleNumber"
+                android:text="Vehicle Number"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/etVehicleNumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:drawablePadding="2dp"
+                android:hint="@string/enter_vehicle_number"
+                android:inputType="textCapCharacters"
+                android:maxLength="10"
+                android:singleLine="true"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:labelFor="@id/etVehicleOwner"
+                android:text="Owner Name"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/etVehicleOwner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:drawablePadding="2dp"
+                android:hint="@string/enter_owner_name"
+                android:inputType="textCapCharacters"
+                android:maxLength="35"
+                android:singleLine="true"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:labelFor="@id/etVehicleType"
+                android:text="Vehicle Type"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/etVehicleType"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:drawablePadding="2dp"
+                android:hint="@string/enter_vehicle_type"
+                android:inputType="textCapCharacters"
+                android:maxLength="15"
+                android:singleLine="true"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:labelFor="@id/etPhoneNumber"
+                android:text="Phone Number"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/etPhoneNumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:drawablePadding="2dp"
+                android:hint="@string/enter_phone_number"
+                android:inputType="number"
+                android:maxLength="10"
+                android:singleLine="true"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:labelFor="@id/etVehicleModel"
+                android:text="Vehicle Model"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/etVehicleModel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:drawablePadding="2dp"
+                android:hint="@string/enter_vehicle_model"
+                android:inputType="textCapCharacters"
+                android:maxLength="35"
+                android:maxLines="1"
+                android:singleLine="true"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:labelFor="@id/etFuelType"
+                android:text="Fuel Type"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/etFuelType"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:drawablePadding="2dp"
+                android:hint="@string/enter_type_of_vehicle_fuel"
+                android:inputType="textCapCharacters"
+                android:maxLength="35"
+                android:maxLines="1"
+                android:singleLine="true"/>
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="#ff4081"
+                android:text="SUBMIT"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+

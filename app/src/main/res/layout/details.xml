@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#00b8d4">
+  <com.google.android.material.appbar.AppBarLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <androidx.appcompat.widget.Toolbar
+          android:layout_width="match_parent"
+          android:background="@color/colorAccent"
+          android:id="@+id/tool"
+          android:layout_height="57dp"/>
+  </com.google.android.material.appbar.AppBarLayout>
+    <TextView
+        android:id="@+id/txtDetailsHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vehicle Details"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/vehicleinfo"
+        android:elevation="20dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="arial"
+                android:text="Vehicle Number"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:padding="1dp"/>
+
+            <TextView
+                android:id="@+id/vehicle_number"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text=""
+                android:textColor="#4a148c"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:padding="1dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="arial"
+                android:text="Owner Name"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:padding="1dp"/>
+
+            <TextView
+                android:id="@+id/owner_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text=""
+                android:textColor="#4a148c"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:padding="1dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="arial"
+                android:text="Owner contact"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:padding="1dp"/>
+
+            <TextView
+                android:id="@+id/owner_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text=""
+                android:textColor="#4a148c"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:padding="1dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="arial"
+                android:text="Vehicle Type"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:padding="1dp" />
+
+            <TextView
+                android:id="@+id/vehicle_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text=""
+                android:textColor="#4a148c"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:padding="1dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="arial"
+                android:text="Vehicle Model"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:padding="1dp" />
+
+            <TextView
+                android:id="@+id/vehicle_model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text=""
+                android:textColor="#4a148c"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:padding="1dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="arial"
+                android:text="Fuel Type"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:padding="1dp"/>
+
+            <TextView
+                android:id="@+id/fuel_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text=""
+                android:textColor="#4a148c"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:padding="1dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

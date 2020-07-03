@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/vehicleInformation"
+        android:title="@string/vehicle_information"
+        android:icon="@drawable/ic_vehicle"/>
+    <item
+        android:id="@+id/scanner"
+        android:title="@string/scanner"
+        android:icon="@drawable/ic_scanner"/>
+    <item
+        android:id="@+id/logout"
+        android:title="LOGOUT"
+        android:icon="@drawable/ic_about"/>
+</group>
+<item android:title="Communicate">
+    <menu>
+        <item
+            android:id="@+id/Share"
+            android:title="SHARE"
+            android:icon="@drawable/ic_share"/>
+        <item
+            android:id="@+id/Feedback"
+            android:title="Feedback"
+            android:icon="@drawable/ic_feedback"/>
+    </menu>
+</item>
+
+</menu>
